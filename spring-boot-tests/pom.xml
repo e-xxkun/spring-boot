@@ -11,7 +11,7 @@
 	<artifactId>spring-boot-tests</artifactId>
 	<packaging>pom</packaging>
 	<name>Spring Boot Tests</name>
-	<description>Spring Boot Test</description>
+	<description>Spring Boot Tests</description>
 	<properties>
 		<main.basedir>${basedir}/..</main.basedir>
 	</properties>
@@ -19,6 +19,7 @@
 		<!-- Deployment tests are slow so don't include by default -->
 		<module>spring-boot-smoke-tests-invoker</module>
 		<module>spring-boot-integration-tests</module>
+		<module>spring-boot-xxkun-test</module>
 	</modules>
 	<profiles>
 		<!-- M2E profile to allow easy import into Eclipse -->
